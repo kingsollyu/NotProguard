@@ -23,3 +23,8 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# keep annotated by NotProguard  - by sollyu
+-keep @com.sollyu.android.not.proguard.NotProguard class * {*;}
+-keep class * { @com.sollyu.android.not.proguard.NotProguard <fields>;  }
+-keepclassmembers class * {@com.sollyu.android.not.proguard.NotProguard <methods>;  }
