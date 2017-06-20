@@ -2,6 +2,8 @@
 
 ## 说明
 
+[![](https://jitpack.io/v/kingsollyu/NotProguard.svg)](https://jitpack.io/#kingsollyu/NotProguard)
+
 NotProguard 是个编译时注解，不会对运行时性能有任何影响。可修饰类、方法、构造函数、属性。
 
 ## 配置
@@ -17,7 +19,7 @@ repositories {
 ### 添加引用
 ```
 dependencies {
-    compile 'com.github.kingsollyu:NotProguard:v1.0.0'
+    compile 'com.github.kingsollyu:NotProguard:1.0.0'
 }
 ```
 
