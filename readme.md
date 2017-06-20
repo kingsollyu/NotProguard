@@ -28,8 +28,8 @@ dependencies {
 ```pro
 # keep annotated by NotProguard  - by sollyu
 -keep @com.sollyu.android.not.proguard.NotProguard class * {*;}
--keep class * { @com.sollyu.android.not.proguard.NotProguard <fields>;  }
--keepclassmembers class * {@com.sollyu.android.not.proguard.NotProguard <methods>;  }
+-keep,allowobfuscation @interface com.sollyu.android.not.proguard.NotProguard
+-keepclassmembers class * { @com.sollyu.android.not.proguard.NotProguard *;}
 ```
 
 ## 使用
